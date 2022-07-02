@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-Understanding bootstrap components a little more and hoe to use them in a better way.
+Understanding bootstrap components a little more and how to use them in a better way.
 
 
 

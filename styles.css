@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+}
+
+h1 {
+    font-family: "Big Shoulders Display", cursive;
+}
+.cotainer {
+    margin-top: 250px;
+}
+.container {
+    /* display: flex;
+    flex-direction: row; */
+    margin: 0;
+    margin-top: 200px;
+    /* padding: 0; */
+    /* width: 100%; */
+    justify-content: center;
+}
+.sedan,
+.suv,
+.luxury {
+    padding: 50px;
+}
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 10px;
+}
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    padding-bottom: 10px;
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.buttonLuxury:hover,
+.buttonSedan:hover,
+.buttonSuv:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px hsla(0, 0%, 100%, 0.75) solid;
+    cursor: pointer;
+}
+
+.buttonLuxury,
+.buttonSedan,
+.buttonSuv {
+    border-radius: 45px;
+}
+
+.buttonSedan {
+    color: hsl(31, 77%, 52%);
+}
+.buttonSuv {
+    color: hsl(184, 100%, 22%);
+}
+.buttonLuxury {
+    color: hsl(179, 100%, 13%);
+}
+.buttonSedan:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.buttonSuv:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.buttonLuxury:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    color: black;
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        margin: 0;
+    }
+    .cotainer {
+        margin: 0;
+    }
+    .sedan {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 12px;
+    }
+
+    .luxury {
+        border-top-right-radius: 12px;
+        border-bottom-left-radius: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .cotainer {
+        margin-top: 500px;
+    }
+}
